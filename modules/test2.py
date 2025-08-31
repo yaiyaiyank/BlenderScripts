@@ -1,2 +1,5 @@
+import bpy
+
 def testtest():
-    print("これが読み込めてればok。と言ってみるテスト")
+    for obj in bpy.context.selected_objects:
+        obj.show_wire = True

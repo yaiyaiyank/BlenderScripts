@@ -1,6 +1,6 @@
 import importlib
-from modules import test2
+import main
+importlib.reload(main)
 
+main.main()
 
-importlib.reload(test2)
-test2.testtest()
