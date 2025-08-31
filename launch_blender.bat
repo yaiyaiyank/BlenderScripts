@@ -1,1 +1,1 @@
-blender --python main.py
+blender --python add_path.py
